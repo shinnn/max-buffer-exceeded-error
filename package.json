@@ -1,0 +1,41 @@
+{
+  "name": "max-buffer-exceeded-error",
+  "version": "1.0.0",
+  "description": "A better error class for 'maxBuffer exceeded' errors",
+  "repository": "shinnn/max-buffer-exceeded-error",
+  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "scripts": {
+    "pretest": "eslint --fix --config @shinnn/node-legacy index.js test.js",
+    "test": "node --strong_mode test.js",
+    "coverage": "node --strong_mode node_modules/.bin/istanbul cover test.js"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "max",
+    "limit",
+    "buffer",
+    "exceed",
+    "error",
+    "exec",
+    "execfile",
+    "exec-file",
+    "class",
+    "constructor",
+    "inheritance",
+    "superclass",
+    "super",
+    "custom"
+  ],
+  "dependencies": {
+    "create-error-class": "^2.0.1"
+  },
+  "devDependencies": {
+    "@shinnn/eslint-config-node-legacy": "^1.0.0",
+    "eslint": "^1.10.2",
+    "istanbul": "^0.4.1",
+    "tape": "^4.2.2"
+  }
+}

@@ -4,13 +4,7 @@ const MaxBufferExceededError = require('.');
 const test = require('tape');
 
 test('MaxBufferExceededError', t => {
-  t.plan(8);
-
-  t.strictEqual(
-    MaxBufferExceededError.name,
-    'MaxBufferExceededError',
-    'should have a function name.'
-  );
+  t.plan(7);
 
   const err = new MaxBufferExceededError('stdout', 1);
 

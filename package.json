@@ -1,6 +1,6 @@
 {
   "name": "max-buffer-exceeded-error",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A better error class for 'maxBuffer exceeded' errors",
   "repository": "shinnn/max-buffer-exceeded-error",
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
